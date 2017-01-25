@@ -1,0 +1,111 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.className{
+	float:left;
+	width:600px;
+	height:600px;
+	border: 1px solid black;
+	background-color: lightgreen;
+
+}
+.rows{
+	width:100%;
+	height:9%;
+
+	
+	}
+.cell{
+	width:8%;
+	height:90%;
+	float:left;
+	border: 1px solid black;
+	margin:2px;
+	padding:2px;
+	
+}
+
+.diceColumn1 {
+	float: left;
+}
+
+
+.diceColumn2 {
+	float: left;
+}
+
+.rollDice {
+	
+	height: 50px;
+  	width: 50px;
+ 	padding: 50px;
+  	margin: 50px auto;
+  	border: 1px solid gray;
+  	border-radius: 10px;  
+  	font-size:50px;
+  	
+}
+
+.white {
+	background-color: white;
+}
+
+.rightdiv {
+	float : right;
+	width : 730px;
+	height :600px;
+	line-height: 1.8;
+}
+
+.startGame {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  align-content: center;
+  height: 60px;
+  width: 250px;
+  
+
+.startGame:hover {background-color: #3e8e41;}
+
+.startGame:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+
+}
+
+.playerSelect {
+	width:350px;
+	height: 250px;
+	align-content: center;
+}
+
+.status {
+	height: 60px;
+  	width: 60px;
+ 	padding: 50px;
+  	margin: 50px auto;
+  	border: 1px solid gray;
+  	border-radius: 10px;  
+  	font-size:80px;
+  	text-align: center;
+}
+
+.empty {
+	height: 50%;
+	width: 60%;
+	border: 1px solid gray;
+}
